@@ -9,6 +9,7 @@ angular.module('myApp', [
   'blog',
   'products',
   'contact',
+  //'ui.bootstrap',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
