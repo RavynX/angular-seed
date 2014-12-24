@@ -22,23 +22,32 @@
   -->
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/home">Home</a></li>
-    <li><a href="#/services">Services</a></li>
-    <li><a href="#/gallery">Gallery</a></li>
-    <li><a href="#/blog">Blog</a></li>
-    <li><a href="#/products">Products</a></li>
-    <li><a href="#/contact">Contact</a></li>
-  </ul>
+  <div id="wrapper">
+    <div id="nav-container">
+      <div id="logo">MotoVogue</div>
+      <div id="nav">
+        <a href="#" id="menu-icon"></a>
+        <ul>
+          <a href="#/index"><li class="current">Home</li></a>
+          <a href="#/services"><li>Services</li></a>
+          <a href="#/gallery"><li>Gallery</li></a>
+          <a href="#/blog"><li>Blog</li></a>
+          <a href="#/products"><li>Products</li></a>
+          <a href="#/contact"><li class="end">Contact</li></a>
+        </ul>
+      </div>
+    </div>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-  <div ng-view></div>
+    <div ng-view></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+    <div>Angular seed app: v<span app-version></span></div>
 
+    <div id="footer"></div>
+  </div>
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
