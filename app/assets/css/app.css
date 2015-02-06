@@ -100,6 +100,77 @@ li:hover {
   border-bottom: 5px solid #00bac6;
 }
 
+#social {
+  position: fixed;
+  top: 65px;
+  display: block;
+  width: 100%;
+  height: 64px;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background-size: 48px 48px;
+}
+
+.facebook {
+  background-image: url('../img/social/125x125-ScallopedCircle-50-FB.png');
+}
+
+.facebook:hover {
+  background-image: url('../img/social/125x125-ScallopedCircle-62-FB.png');
+}
+
+.twitter {
+  background-image: url('../img/social/125x125-ScallopedCircle-50-TW.png');
+}
+
+.twitter:hover {
+  background-image: url('../img/social/125x125-ScallopedCircle-62-TW.png');
+}
+
+.youtube {
+  background-image: url('../img/social/125x125-ScallopedCircle-50-YT.png');
+}
+
+.youtube:hover {
+  background-image: url('../img/social/125x125-ScallopedCircle-62-YT.png');
+}
+/*
+.social-slide {
+  background-image: url('../img/Round-Social-Media-Icons.jpg');
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  -webkit-transition: all ease 0.0s;
+  -moz-transition: all ease 0.0s;
+  -o-transition: all ease 0.0s;
+  -ms-transition: all ease 0.0s;
+  transition: all ease 0.0s;
+}
+.social-slide:hover {
+  background-position: 0px -48px ;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+.facebook-hover {
+  background-position: -32px -22px;
+}
+
+.facebook-hover:hover {
+  background-position: -32px -182px;
+}
+
+.instagram-hover {
+  background-position: ;
+}
+
+.youtube-hover {
+  background-position: ;
+}*/
 
 #footer {
   position: absolute;
